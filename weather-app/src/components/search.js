@@ -22,7 +22,6 @@ const Search = () => {
       const resp = await axios.get(url);
       setData(resp.data);
       setData1({});
-      console.log(resp.data);
 
       setLocation("");
 
@@ -32,10 +31,8 @@ const Search = () => {
   };
 
   const handleClick = async (e) => {
-    e.preventDefault();
     const resp = await axios.get(url2);
     setData1(resp.data);
-    console.log(resp.data);
   };
 
   return (

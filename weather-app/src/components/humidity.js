@@ -1,7 +1,6 @@
 import React from "react";
 
 const Humidity = (data) => {
-  console.log(data);
   return (
     <div className="humidity">
       {data.data.main ? (
