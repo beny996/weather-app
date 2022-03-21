@@ -1,5 +1,9 @@
-import styles from "../styles/Home.module.css";
+import Search from "./search";
 
 export default function Home() {
-  return <div className={styles.container}></div>;
+  return (
+    <div className="container">
+      <Search />
+    </div>
+  );
 }
