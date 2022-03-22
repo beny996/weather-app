@@ -2,7 +2,7 @@ import Search from "./search";
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="app">
       <Search />
     </div>
   );
